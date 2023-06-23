@@ -1,0 +1,52 @@
+.btn{
+    padding: 5px 12px;
+  font-size: 20px;
+  font-weight: 400;
+  color: white;
+}
+/* header */
+header{
+    background-color: #6d7fcc;
+    color: white;
+}
+header .navbar-brand{
+    font-size: 32px;
+}
+header .nav-item{
+    font-size: 20px;
+}
+
+/* body */
+#body{
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    /* height: 100%; */
+}
+
+.card-header{
+    background-color: white;
+}
+.card-header .form-control{
+    background-color: #6d7fcc;
+    color: white;
+    font-size: 24px;
+}
+.card-body{
+    padding: 0 !important;
+}
+.card-body h1{
+    color: #007bff;
+}
+
+/* Modal */
+#myModal .modal-header {
+    align-items: center;
+    justify-content: center;
+    background-color: #6d7fcc;
+  }
+  #myModal .modal-body {
+    background: linear-gradient(to right, #ACB6E5, #74ebd5);
+    box-shadow: 0 9px 50px hsla(216, 83%, 68%, 0.31);
+  }
+  #myModal .modal-footer {
+    background-color: #6d7fcc;
+  }

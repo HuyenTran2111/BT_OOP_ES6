@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Quản Lý Học Viện Nghiên Cứu Và Giảng Dạy</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body id="body">
+    <header>
+      <nav class="container navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="#">
+          Quản Lý Học Viện Nghiên Cứu Và Giảng Dạy
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"> Home </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> About </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> Contact </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container py-5">
+      <div class="card">
+        <div class="card-header">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <select class="form-control px-5" name="" id="type">
+                <option value="">---Select type---</option>
+                  <option value="student">Student</option>
+                  <option value="employee">Employee</option>
+                  <option value="customer">Customer</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-6 my-3 pl-5" id="title">
+              
+            </div>
+            <div class="col-md-6 text-right my-4 pr-5" id="buttonModal">
+              <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal" id="btnAddModal">
+            </button> -->
+            </div>
+          </div>
+          <table id="table" class="table table-bordered table-hover myTable">
+            
+          </table>
+        </div>
+        <div class="card-footer text-muted"></div>
+      </div>
+    </div>
+    <!-- Modal -->
+
+    <div class="modal fade" id="myModal">
+      
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- <script src="./model/listPerson.js"></script> -->
+    <script type="module" src="./controller/main.js"></script>
+  </body>
+</html>
